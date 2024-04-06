@@ -1,6 +1,5 @@
 // server
-const address = 'localhost:3000'
-const socket = io(`ws://${address}`)
+const socket = io()
 
 // cashed element references
 const selections = document.querySelectorAll('.selections')
