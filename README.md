@@ -16,7 +16,7 @@ Welcome to the **Rock Paper Scissors Lizard Spock Multiplayer Game**, an excitin
 This game leverages a variety of technologies to provide a smooth and responsive user experience:
 
 - **Frontend**: Vanilla JavaScript for handling UI interactions and Socket.IO client for real-time web socket communication.
-- **Backend**: Node.js and Express server with Socket.IO for managing real-time bidirectional event-based communication.
+- **Backend**: Node.js server with Socket.IO for managing real-time bidirectional event-based communication.
 - **Deployment**: Designed to be easily deployable on any platform supporting Node.js.
 
 ## Getting Started
@@ -33,7 +33,7 @@ To run this game locally, follow these steps:
 
 3. **Start the Server**
 
-   Execute `node server.js` to start the server. It will listen on port 3000.
+   Execute `nodemon` to start the server. It will listen on port 3000.
 
 4. **Access the Game**
 
