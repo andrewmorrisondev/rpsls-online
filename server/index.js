@@ -5,7 +5,7 @@ const httpServer = createServer()
 
 const io = new Server(httpServer, {
   cors: {
-    origin: ["http://127.0.0.1:5500", "http://localhost:5500"],
+    origin: "*",
     methods: ["GET", "POST"]
   }
 })
@@ -98,4 +98,5 @@ io.on('connection', socket => {
   })
 })
 
-httpServer.listen(3000, () => console.log('listening on port 3000.'))
+const PORT = process.env.PORT || 3000
+httpServer.listen(PORT, () => console.log(`Listening on port ${PORT}.`));
