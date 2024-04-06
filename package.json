@@ -1,7 +1,5 @@
 {
-  "type": "module",
   "dependencies": {
-    "http": "^0.0.1-security",
     "socket.io": "^4.7.5"
   },
   "devDependencies": {
@@ -12,5 +10,6 @@
   },  
   "scripts": {
     "start": "node server/index.js"
-  }
+  },
+  "main": "server/index.js"
 }
