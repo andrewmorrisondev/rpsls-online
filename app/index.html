@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPSLS</title>
+    <link href="/app/styles.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"
+        integrity="sha512-Xm9qbB6Pu06k3PUwPj785dyTl6oHxgsv9nHp7ej7nCpAqGZT3OZpsELuCYX05DdonFpTlBpXMOxjavIAIUwr0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+  <div class="body-container">
+    <div class="play-area">
+      <div class="info">
+        <div class="room">
+          <p class="room-display"></p>
+        </div>
+        <div class="player-status">
+          <p class="player-display"></p>
+        </div>
+      </div>
+      <div class="game">
+        <div class="player-one">
+          <p class="player-one-selection"></p>
+        </div>
+        <div class="player-two">
+          <p class="player-two-selection"></p>
+        </div>
+      </div>
+      <div class="message">
+        <p class="message-text"></p>
+      </div>
+    </div>
+    <div class="selection">
+      <button class="selections">rock</button>
+      <button class="selections">paper</button>
+      <button class="selections">scissors</button>
+      <button class="selections">lizard</button>
+      <button class="selections">spock</button>
+    </div>
+  </div>
+</body>
+
+</html>
