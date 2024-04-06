@@ -1,5 +1,5 @@
 // server
-const socket = io()
+const socket = io({transports: ['websocket', 'polling']})
 
 // cashed element references
 const selections = document.querySelectorAll('.selections')
